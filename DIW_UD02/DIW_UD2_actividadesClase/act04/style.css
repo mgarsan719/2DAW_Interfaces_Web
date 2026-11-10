@@ -1,0 +1,13 @@
+h2{ }
+
+div article:first-child{ }
+
+#principal{ }
+
+#principal h2{ }
+
+.Articulo{ }
+
+.Articulo h2{ }
+
+#secundario article:last-child{ }

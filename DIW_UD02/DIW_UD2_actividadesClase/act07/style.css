@@ -1,0 +1,26 @@
+.gallery{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card{
+    max-width: 300px;
+    width: 25%;
+    border: 1px ;
+    border-radius: 20px;
+    transition: transform 0.5s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}

@@ -1,0 +1,23 @@
+h2 {
+    color: blue;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+#descripcion{
+    border: 2px dashed;
+    border-color: burlywood;
+    padding: 10px;
+}
+
+.oferta{
+    color: red;
+}
+
+.novedad{
+    color: yellowgreen;
+}
+
+input{
+    background-color: goldenrod;
+}

@@ -1,0 +1,19 @@
+#div1{
+    width: 40%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+#div2{
+    width: 40%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+#pie-documento{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    text-align: center;
+}

@@ -1,0 +1,33 @@
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+
+ul li {
+    display: inline-block;
+}
+
+.material-symbols-outlined {
+    color: green;
+
+}
+
+ul li:first-child a::after {
+    content: "INICIAR SESION";
+    font-size: 15px;
+    color: green;
+
+}
+
+ul li a::after {
+    content: "FAVORITOS";
+    font-size: 15px;
+    color: green;
+
+}

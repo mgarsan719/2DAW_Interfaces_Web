@@ -1,0 +1,23 @@
+.grid-container{
+    display: grid;
+    height: 400px;
+    width: 400px;
+    gap: 10px;
+    grid-template-columns: auto auto auto;
+    margin: 0 auto;
+}
+
+.grid-item{
+    text-align: center;
+    align-content: center;
+    background-color: #3498db;
+    color: white;
+    transition: transform 0.5s ease;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.grid-item:hover{
+    background-color: #2ecc71;
+    transform: scale(1.05);
+}

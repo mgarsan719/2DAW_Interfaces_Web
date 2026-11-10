@@ -1,0 +1,305 @@
+/* resetea los estilos del navegador */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Estilo general para los párrafos*/
+p {
+    text-align: justify;
+    color: #92968c;
+    font-size: 18px;
+    line-height: 32px;
+    font-family: Arial;
+}
+
+/*CABECERA*/
+header {
+    display: block;
+    width: 100%;
+    align-items: center;
+}
+
+header #logo {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+header nav {
+    display: block;
+    float: left;
+    width: 50%;
+    padding: 10px 0px;
+}
+
+header nav ul {
+    background-color: #bbdb88;
+    display: inline;
+    padding: 15px 70px 15px 0px;
+    border-radius: 0px 15px 15px 0px;
+}
+
+header nav ul li {
+    list-style: none;
+    display: inline;
+    text-align: left;
+    padding-left: 70px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav ul li:nth-child(4) a {
+    color: red;
+}
+
+header nav ul li a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+header nav ul li:nth-child(4) a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/*Redes de la cabecera*/
+#redes {
+    text-align: right;
+    display: block;
+    float: left;
+    width: 50%;
+}
+
+#redes a {
+    padding-right: 35px;
+    text-decoration: none;
+}
+
+#redes a:first-child::after {
+    content: url("../img/facebook.png");
+    display: inline;
+    width: 100px;
+}
+
+#redes a:nth-child(2):after {
+    content: url("../img/twitter.png");
+    display: inline;
+    width: 100px;
+}
+
+#redes a:last-child::after {
+    content: url("../img/linkedin.png");
+    display: inline;
+    width: 100px;
+}
+
+#redes a span {
+    display: none;
+}
+
+/*BANNER*/
+#main .banner {
+    width: 100%;
+}
+
+#main .banner img {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+/*TITULO DE LA PAGINA*/
+#main h1 {
+    text-align: center;
+    font-family: Oswald;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: black;
+}
+
+/*CUERPO*/
+#main .principal {
+    margin: 0 auto;
+    max-width: 800px;
+
+}
+
+/*TARJETAS DE PRODUCTOS*/
+#main .productos {
+    margin: 0 auto;
+    max-width: 1400px;
+    display: block;
+    width: 100%;
+}
+
+#main .productos ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#main .productos ul li {
+    width: calc(100%/3);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#main .productos ul li img {
+    width: 100%;
+}
+
+#main .productos ul li h3 {
+    text-align: center;
+    color: #292a27;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Oswald;
+    letter-spacing: 1px;
+}
+
+#main .productos ul li .desc {
+    color: black;
+    font-size: 15px;
+    font-family: Arial;
+    text-align: left;
+}
+
+#main .productos ul li .prod_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width: 100%;
+    margin-top: 10px;
+}
+
+#main .productos ul li .prod_bottom .price {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+#main .productos ul li .prod_bottom .compra {
+    display: flex;
+    align-items: center; 
+    text-decoration: none;
+    color: white;
+    background-color: #bbdb88;
+    border-radius: 5px;
+}
+
+#main .productos ul li .prod_bottom .compra:hover {
+    background-color: #85b463;
+    color:black;
+}
+
+#main .productos ul li .prod_bottom .compra span {
+    padding: 8px 12px;
+    margin-left: 0; 
+}
+
+#main .productos ul li .prod_bottom .compra span:last-child {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: Oswald;
+    letter-spacing: 1px;
+}
+
+/*DOBLE PARRAFO*/
+.doble{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.doble p{
+    float: left;
+    width: 30%;
+    text-align: justify;
+}
+
+.doble p::first-letter{
+    color:black;
+    font-size: 30px;
+    font-family: Oswald;
+}
+
+.doble p:first-child{
+    margin-left: 15%;
+}
+
+.doble p:last-child{
+    margin-right: 15%;
+}
+
+/*PIE DE PAGINA*/
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    background-color: #bbdb88;
+}
+
+/*Enlaces del pie de página*/
+.footer_links{
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.footer_links .column{
+    float: left;
+}
+
+.footer_links .column h4{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
+    color:white;
+    font-family: Oswald;
+}
+
+.footer_links .column ul{
+    list-style: none;
+}
+
+.footer_links .column ul li{
+    padding-top: 10px;
+}
+
+.footer_links .column ul li:last-child{
+    padding-top: 15px;
+}
+
+.footer_links .column ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Arial;
+}
+
+.footer_links .column ul li a:visited{
+    color: gray;
+}
+
+.footer_links .column ul li a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+/*Firma del pie de página*/
+footer > div:last-child{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-family: Arial;
+}
+

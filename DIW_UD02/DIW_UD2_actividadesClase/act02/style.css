@@ -1,0 +1,23 @@
+thead{
+    background-color: black;
+    color: white;
+    font-style: italic;
+}
+
+tfoot{
+    background-color: blueviolet;
+    color: white;
+    text-transform: uppercase;
+}
+
+tbody tr:nth-child(odd){
+    background-color: aquamarine;
+}
+
+tbody tr:nth-child(even){
+    background-color: beige;
+}
+
+tbody tr td:last-child{
+    font-weight: bold;
+}

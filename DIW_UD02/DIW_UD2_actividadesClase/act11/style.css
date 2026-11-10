@@ -1,0 +1,40 @@
+ul {
+    list-style: none;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+body ul li {
+    display: inline-block;
+    position: relative; 
+    margin-right: 150px; 
+}
+
+a {
+    text-decoration: none;
+}
+
+.material-symbols-outlined {
+    color: #007020; 
+    vertical-align: middle; 
+}
+
+ul li:first-child a span::after {
+    content: "INICIAR SESIÓN";
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    color: #007020;
+    position: absolute;
+    left: 35px; 
+    top: 20%;
+}
+
+ul li:last-child a span::after {
+    content: "FAVORITOS";
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    color: #007020;
+    position: absolute;
+    left: 35px;
+    top: 20%;
+}

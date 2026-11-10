@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#pagina {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 200px 1fr 300px;
+    grid-template-rows: 80px 1fr 50px;
+    grid-template-areas:
+        "header header header"
+        "sidebar main widget"
+        "footer footer footer";
+    gap:5px;
+}
+
+header {
+    display: grid;
+    background-color: #3498db;
+    grid-area: header;
+    place-items: center;
+    color: white;
+}
+
+nav {
+    display: grid;
+    grid-area: sidebar;
+    background-color: #2ecc71;
+    place-items: center;
+    color:  white;
+}
+
+main {
+    display: grid;
+    grid-area: main;
+    background-color: #ecf0f1;
+    place-items: center;
+}
+
+article {
+    display: grid;
+    grid-area: widget;
+    background-color: #9b59b6;
+    place-items: center;
+    color: white;
+
+}
+
+#pagina section {
+    display: grid;
+    grid-area: footer;
+    background-color: #34495e;
+    place-items: center;
+    color: white;
+}

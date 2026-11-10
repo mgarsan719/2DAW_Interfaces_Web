@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.fila-textos {
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 50px;
+}
+
+.texto-izquierdo, .texto-derecho {
+    width: 30%; 
+    background-color: gray; 
+    border: 2px dotted black; 
+    padding: 40px 20px;
+}
+
+.texto-derecho {
+    text-align: right; 
+}
+
+.contenido {
+    width: 35%;
+    margin: 0 auto; 
+    text-align: right; 
+}
+
+footer {
+    position: fixed; 
+    bottom: 20px; 
+    left: 20px; 
+    right: 20px; 
+}
+
+.footer-text {
+    background-color: gray; 
+    text-align: center;
+    padding: 15px;
+}

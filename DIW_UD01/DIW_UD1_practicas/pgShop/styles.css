@@ -1,0 +1,159 @@
+/*He intercambiado la tipografía de titulos 
+* y texto normal ya que quedaba muy mal
+*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans", system-ui;
+    font-size: 16px;
+    font-style: normal;
+    color: white;
+    background-color: #192039;
+}
+
+main {
+    margin: 55px;
+}
+
+h1,
+h2 {
+    font-family: "Black Ops One", system-ui;
+    
+    font-style: normal;
+    color: white;
+}
+
+button {
+    background-color: #0EEDC8;
+    border-radius: 10px;
+    font-family: "Open Sans", sans-serif;
+}
+
+img {
+    border-radius: 15px;
+}
+
+#contenedor-imagen img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 1px solid #0EEDC8;
+}
+
+p {
+    font-family: "Open Sans", system-ui;
+    font-style: normal;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+header {
+    background-color: #193b5b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 55px;
+
+}
+
+footer {
+    background-color: #193b5b;
+    display: flex;
+    flex-direction: column; 
+    padding: 40px 55px 20px 55px; 
+}
+
+nav {
+    font-family: "Open Sans", sans-serif;
+}
+
+#enlacesHeader {
+    display: flex;
+    gap: 50px;
+    margin-left: auto;
+    margin-right: 100px;
+    align-items: center;
+}
+
+#enlacesFooter {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+#enlacesFooter a {
+    color: white;
+    text-decoration: none;
+
+}
+
+#enlacesFooter a:hover {
+    color: #0EEDC8;
+}
+
+#enlacesHeader a {
+    color: white;
+    text-decoration: none;
+
+}
+
+#enlacesHeader a:hover {
+    color: #0EEDC8;
+}
+
+#btnIniciarSesion {
+    border-radius: 100px;
+    padding: 13px 15px;
+}
+
+#btnIniciarSesion:hover {
+    background-color: #099981;
+}
+
+#redes-sociales {
+    display: flex;
+    gap: 30px;
+}
+
+#redes-sociales a {
+    font-size: 1.5em;
+    color: #0EEDC8;
+}
+
+#footer-superior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#footer-inferior {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 30px;
+    color: #888;
+    font-size: 14px;
+}
+
+#enlaces-legales {
+    display: flex;
+    gap: 20px;
+}
+
+#enlaces-legales a {
+    color: #888;
+    text-decoration: none;
+}
+
+#enlaces-legales a:hover {
+    color: #0EEDC8;
+}
